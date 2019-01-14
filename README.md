@@ -9,4 +9,4 @@ shoot at the snowball with smaller snowballs in order to dodge it. Once the play
 
 The game also includes God Mode as a feature, and incoporates both night and day appearances
 with background music to match. The heads-up display includes instructions for controls and
-important keys in the game, adn can be toggled on and off with F1.
+important keys in the game, and can be toggled on and off with F1.
