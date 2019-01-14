@@ -1,0 +1,191 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation.
+     So make sure to include your name as part of the screenTitle -->
+<title>Go Fish!</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>400</maxFrames>
+<username>elmerri</username>
+
+<view>
+  <width>1200</width>
+  <height>700</height>
+  <loc x="30" y="30"/>
+</view>
+
+<world>
+  <width>1920</width>
+  <height>800</height>
+</world>
+
+<clouds>
+  <file>assets/clouds.jpeg</file>
+  <factor>3</factor>
+  <transparency>false</transparency>
+</clouds>
+
+<night>
+  <file>assets/night.png</file>
+  <factor>3</factor>
+  <transparency>false</transparency>
+</night>
+
+<mountains>
+  <file>assets/mountainsScaled.png</file>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</mountains>
+
+<hills>
+  <file>assets/snowHillsScaled.png</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</hills>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</font>
+
+<numberOfLights>5</numberOfLights>
+<lightSpec lightX1="480" lightY1="-100" lightZ1="100" />
+<lightSpec lightX2="1440" lightY2="-100" lightZ2="100" />
+<lightSpec lightX3="960" lightY3="-100" lightZ3="100" />
+<lightSpec lightX4="0" lightY4="-100" lightZ4="100" />
+<lightSpec lightX5="1920" lightY5="-100" lightZ5="100" />
+<!-- larger noneffectiveLighting the smaller the radius of the light -->
+<noneffectiveLighting>100</noneffectiveLighting>
+<ambientLighting>1000000</ambientLighting>
+<brightness>15000000</brightness>
+<diffuseGrid>
+   <x>6</x>
+   <y>6</y>
+</diffuseGrid>
+
+<hud>
+  <x>950</x>
+  <y>0</y>
+  <w>250</w>
+  <h>360</h>
+  <r>0</r>
+  <g>140</g>
+  <b>140</b>
+  <a>0</a>
+</hud>
+
+<fluffy>
+  <file>assets/fluffy.png</file>
+  <frames>1</frames>
+  <startLoc x="0" y="0"/>
+  <speedX>0</speedX>
+  <speedY>50</speedY>
+  <transparency>false</transparency>
+</fluffy>
+
+<snowball>
+  <file>assets/snowball.png</file>
+  <interval>300</interval>
+  <distance>900</distance>
+  <startLoc x="100" y="100"/>
+  <speedX>600</speedX>
+  <speedY>0</speedY>
+  <strategy>rectangular</strategy>
+  <transparency>false</transparency>
+</snowball>
+
+<snowballRollRight>
+  <file>assets/snowballRollRight.png</file>
+  <frames>6</frames>
+  <frameInterval>200</frameInterval>
+  <startLoc x="50" y="675"/>
+  <speedX>225</speedX>
+  <speedY>0</speedY>
+  <chunk>
+    <size>16</size>
+    <distance>200</distance>
+  </chunk>
+  <transparency>false</transparency>
+</snowballRollRight>
+
+<snowballRollLeft>
+  <file>assets/snowballRollLeft.png</file>
+  <frames>6</frames>
+  <frameInterval>200</frameInterval>
+  <startLoc x="1870" y="675"/>
+  <speedX>225</speedX>
+  <speedY>0</speedY>
+  <chunk>
+    <size>16</size>
+    <distance>200</distance>
+  </chunk>
+  <transparency>false</transparency>
+</snowballRollLeft>
+
+<penguin>
+  <file>assets/penguinWalkRightMultiSprite.png</file>
+  <bullet>snowball</bullet>
+  <startLoc x="400" y="675"/>
+  <frames>4</frames>
+  <frameInterval>200</frameInterval>
+  <speedX>350</speedX>
+  <speedY>0</speedY>
+  <chunk>
+    <size>16</size>
+    <distance>200</distance>
+  </chunk>
+  <transparency>false</transparency>
+</penguin>
+
+<penguinRight>
+  <file>assets/penguinWalkRightMultiSprite.png</file>
+  <bullet>snowball</bullet>
+  <startLoc x="400" y="0"/>
+  <frames>4</frames>
+  <frameInterval>200</frameInterval>
+  <speedX>350</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</penguinRight>
+
+<penguinLeft>
+  <file>assets/penguinWalkLeftMultiSprite.png</file>
+  <bullet>snowball</bullet>
+  <startLoc x="400" y="0"/>
+  <frames>4</frames>
+  <frameInterval>200</frameInterval>
+  <speedX>350</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</penguinLeft>
+
+<penguinBobbing>
+  <file>assets/penguinBob.png</file>
+  <bullet>snowball</bullet>
+  <startLoc x="700" y="675"/>
+  <frames>2</frames>
+  <frameInterval>200</frameInterval>
+  <speedX>350</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</penguinBobbing>
+
+<penguinBobbingLeft>
+  <file>assets/penguinBobLeft.png</file>
+  <bullet>snowball</bullet>
+  <startLoc x="400" y="675"/>
+  <frames>2</frames>
+  <frameInterval>200</frameInterval>
+  <speedX>350</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</penguinBobbingLeft>
+
+</GameData>
