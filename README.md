@@ -7,6 +7,6 @@ fish as you can with 3 lives and avoid the snowball that rolls back and forth. T
 shoot at the snowball with smaller snowballs in order to dodge it. Once the player loses all
 3 lives, they can either quit the game or restart.
 
-The game also includes God Mode as a feature, and incoporates both night and day appearances
+The game also includes God Mode as a feature, and incorporates both night and day appearances
 with background music to match. The heads-up display includes instructions for controls and
 important keys in the game, and can be toggled on and off with F1.
